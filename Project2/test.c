@@ -42,14 +42,6 @@ void main(void)
 	printf("f1_adders         = %p\r\n", f1_adders);
 	printf("d1          = %f\r\n", d1);
 
-	printf("\r\n枚举类型数据的长度\r\n");
-	printf("enu1       = %d\r\n", sizeof(enu1));
-	printf("enu1--no   = %d\r\n", (no));
-	printf("enu1--yes  = %d\r\n", (yes));
-	printf("enu1--null = %d\r\n", (null));
-	enu1 = yes;
-	printf("enu1       = %d\r\n", enu1);
-	printf("enu1_adders= %p\r\n", &enu1);
 
 
 
